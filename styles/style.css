@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F3F3EB;
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalhoNavegacao {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalhoLinks {
+    font-family: "Mukta", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #F3F3EB;
+    text-decoration: none;
+}
+
+.cabecalhoLinks:hover {
+    color: #C0091E;
+}
+
+.conteudo {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.conteudoPrincipal {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudoTitulo {
+    font-size: 2.25rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+}
+
+.tituloDestaque {
+    color: #C0091E;
+}
+
+.conteudoResumido {
+    font-family: "Mukta", sans-serif;
+    font-size: 1.3rem;
+}
+
+.conteudoCompleto {
+    width: 70%;
+    font-family: "Mukta", sans-serif;
+    font-size: 1.3rem;
+}
+
+.conteudoRedesSociais:hover {
+    background-color: #272727;
+}
+
+.conteudoLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.conteudoSubTitulo {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.conteudoRedesSociais {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F3F3EB;
+    font-family: "Mukta", sans-serif;
+    border: 2px solid #C0091E;
+}
+
+.imagemYuri {
+    border-radius: 16px;
+    width: 40%;
+}
+
+.rodape {
+    color: #F3F3EB;
+    font-family: "Mukta", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #C0091E;
+    padding: 24px;
+    text-align: center;
+}
+
+.conteudoPrincipal-SobreMim {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.conteudo-SobreMim {
+    width: 100%;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    gap: 82px;
+}
+
+.conteudoCurriculo {
+    padding: 5% 15%;
+    display: flex;
+    gap: 30px;
+}
+
+.conteudoObrigatorio-Curriculo {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.imagemCurriculo {
+    width: 70%;
+    border-radius: 100%;
+}
+
+.dadosObrigatorios {
+    padding: 0.5% 0 0.5% 1%;
+    font-size: 1.1rem;
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+}
+
+.downloadPDF {
+    background-color: #C0091E;
+    padding: 1rem;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Mukta", sans-serif;
+    text-decoration: none;
+    color: #F3F3EB;
+}
+
+.downloadPDF:hover {
+    background-color: #C26B68;
+}
+
+.conteudoPrincipal-Curriculo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #F3F3EB;
+    padding-left: 5%;
+}
+
+.conteudoTitulo-Curriculo {
+    padding: 2% 0;
+    font-size: 2.25rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+}
+
+.empresa {
+    display: flex;
+    align-items: center;
+}
+
+.imagemEmpresa {
+    height: 20px;
+    margin-right: 1%;
+}
+
+.conteudoEmpresa {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+.conteudoDataEmpresa {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.cargoEmpresa {
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.conteudoDescricaoFuncao {
+    padding: 2% 0;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.universidade {
+    display: flex;
+    align-items: center;
+}
+
+.imagemUniversidade {
+    height: 20px;
+    margin-right: 1%;
+}
+
+.conteudoUniversidade {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+.cursoUniversidade {
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.DataUniversidade {
+    padding-bottom: 2%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.classificacaoHabilidade {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nomeHabilidade {
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.imagemEstrela {
+    height: 20px;
+}
